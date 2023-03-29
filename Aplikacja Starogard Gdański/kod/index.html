@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informacje o Starogardzie Gdańskim</title>
+    <link rel="stylesheet" href="styl.css">
+    <link rel="shortcut icon" type="image/ico" href="obrazy/logo.png">
+</head>
+<body>
+    <header>
+        <div class="logo">
+          <img src="obrazy/logo.png" alt="Starogard Gdański">
+        </div>
+        <h1>Starogard Gdański</h1>
+        <div class="theme-switcher">
+          <label class="switch">
+            <input type="checkbox" id="toggleTheme">
+            <span class="slider round"></span>
+          </label>
+          <label for="toggleTheme">Tryb ciemny</label>
+        </div>
+      </header>
+      <table>
+        <tr>
+          <th>Mieszkańcy</th>
+          <td>48 496 (stan na rok 2021)</td>
+        </tr>
+        <tr>
+          <th>Współrzędne geograficzne</th>
+          <td>53°57′N 18°32′E</td>
+        </tr>
+        <tr>
+          <th>Powierzchnia</th>
+          <td>27,39 km²</td>
+        </tr>
+        <tr>
+            <th>Prezydent</th>
+            <td>Janusz Stankowiak</td>
+          </tr>
+          <tr>
+            <th>Kod Pocztowy</th>
+            <td>83-200</td>
+          </tr>
+      </table>
+      <main>
+        <center>
+        <div class="slideshow-container">
+          <div class="mySlides fade">
+            <img src="obrazy/Rynek.jpg" alt="Zdjęcie 1">
+          </div>
+    
+          <div class="mySlides fade">
+            <img src="obrazy/kosciol.jpg" alt="Zdjęcie 2">
+          </div>
+    
+          <div class="mySlides fade">
+            <img src="obrazy/zse.jpg" alt="Zdjęcie 3">
+          </div>
+          
+          <div class="mySlides fade">
+            <img src="obrazy/stacja.jpg" alt="Zdjęcie 3">
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+    </center>
+      </main>
+      <script src="script.js"></script>
+</body>
+</html>
