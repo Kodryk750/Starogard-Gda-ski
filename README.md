@@ -1,1 +1,1 @@
-# Starogard-Gda-ski
+# Starogard-Gdański
