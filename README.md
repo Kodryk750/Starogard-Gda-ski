@@ -1,1 +1,0 @@
-# Starogard-Gdański
